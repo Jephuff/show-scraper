@@ -1,0 +1,16 @@
+{
+  "name": "show-scraper",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "episode-parser": "git+ssh://git@github.com/Jephuff/episode-parser.git",
+    "nightmare": "^2.10.0",
+    "node-tvdb": "^3.0.0"
+  },
+  "scripts": {
+    "test": "node test",
+    "start": "node src",
+    "generate": "node generate.js"
+  }
+}
